@@ -1,0 +1,129 @@
+body {
+    background-image: url('old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall.jpg');
+    background-repeat: no-repeat;
+    background-size: 1920px 1800px; 
+    left: 0px;
+    width: 1920px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    text-align: left;
+    position: relative;
+}
+
+/* Main Navigation Bar */ 
+
+#TOP-BAR {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+#TOP-BAR-BUTTON {
+    height: 100px;
+    width: 130px;
+    border: none;
+    outline: none;
+    color: red;
+    padding-bottom: 10px;
+    padding-top: 55px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 10px;
+    background-color: white;
+}
+
+#TOP-BAR-BUTTON:hover {
+    color: grey;
+}
+/* This is for the Home Part */ 
+
+#ROW1 {
+    justify-content: space-around;
+    display: flex;
+    margin-top: 100px;
+    line-height: 0.5pt;
+}
+#P1   {
+    margin-top: 150px;
+}
+
+
+/* This is all for the Menu Page */ 
+
+#MENU {
+    justify-content: center;
+    display: flex;
+    margin-top: 100px;
+    line-height: 0.5pt;
+ }
+ #SAL {
+     margin-top: 150px;
+     font-weight: bold;
+     color: white; 
+     font-size: 42px;
+     
+ }
+ #SALCONT{
+    font-size: 32px;
+    color: white;
+    border: 1px solid;
+    line-height: 30pt;
+    padding: 20px;
+    padding-right: 80px;
+    margin-right: 200px;
+ }
+ p#SALCONT span {
+    font-size:15px;
+    }
+p#SALCONT2 span {
+        font-size:15px;
+    }
+ #SALCONT2{
+    margin-top: 190px;
+    font-size: 32px;
+    color: white;
+    border: 1px solid;
+    padding: 20px;
+    padding-right: 80px;
+    line-height: 30pt;
+    
+ }
+ #SALCONT3{
+    font-size: 32px;
+    color: white;
+    border: 1px solid;
+    padding: 20px;
+    padding-right: 80px;
+    line-height: 30pt;
+    margin-top: -100px;
+    margin-right: 200px;
+ }
+ p#SALCONT3 span {
+    font-size:15px;
+}
+#SALCONT4{
+    font-size: 32px;
+    color: white;
+    border: 1px solid;
+    padding: 20px;
+    padding-right: 80px;
+    line-height: 30pt;
+    margin-top: -100px;
+ }
+ p#SALCONT4 span {
+    font-size:15px;
+}
+
+
+
+/* This is the Footer*/ 
+.FOOTER {
+    margin-top: 140px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    line-height: 3pt;
+    padding: 0.5px;
+ }
+ 
