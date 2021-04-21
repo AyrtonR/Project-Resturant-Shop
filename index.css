@@ -54,19 +54,18 @@ body {
 
 
 /* This is all for the Menu Page */ 
-
+    
 #MENU {
-    justify-content: center;
+    justify-content: space-around;
     display: flex;
-    margin-top: 100px;
-    line-height: 0.5pt;
+    line-height: 0.5pt;  
 }
  #SAL {
-     margin-top: 150px;
      font-weight: bold;
      color: white; 
      font-size: 42px;
-     
+     text-align: left;         
+     margin-left: 285px;
 }
  #SALCONT{
     font-size: 32px;
@@ -74,51 +73,22 @@ body {
     border: 1px solid;
     line-height: 30pt;
     padding: 20px;
-    padding-right: 80px;
-    margin-right: 200px;
+    border-collapse: separate;
 }
  p#SALCONT span {
     font-size:15px;
 }
-p#SALCONT2 span {
-        font-size:15px;
+.ADDBUTTON {
+    border: 3px solid black;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    float: right;
+    font-size: 25px;
+    padding-top: 2px;
 }
- #SALCONT2{
-    margin-top: 190px;
-    font-size: 32px;
-    color: white;
-    border: 1px solid;
-    padding: 20px;
-    padding-right: 80px;
-    line-height: 30pt;
-    
- }
- #SALCONT3{
-    font-size: 32px;
-    color: white;
-    border: 1px solid;
-    padding: 20px;
-    padding-right: 80px;
-    line-height: 30pt;
-    margin-top: -100px;
-    margin-right: 200px;
- }
- p#SALCONT3 span {
-    font-size:15px;
-}
-#SALCONT4{
-    font-size: 32px;
-    color: white;
-    border: 1px solid;
-    padding: 20px;
-    padding-right: 80px;
-    line-height: 30pt;
-    margin-top: -100px;
-}
- p#SALCONT4 span {
-    font-size:15px;
-}
- 
+
+
+/* Cart */ 
 #Product {
     display:flex;
     justify-content: space-evenly;
@@ -168,6 +138,11 @@ hr {
 #pay button:hover { 
     color: black;
     box-shadow: inset 0 -4px 0 black;
+}
+#details {
+    font-size: 20px; 
+    line-height: 1pt;
+    padding-top: 50px;
 }
 
 
