@@ -132,7 +132,7 @@ hr {
     transition-duration: 0.4s;
     background-color:white; 
     /* TEMPORARY FIX */
-    margin-top: -100px;
+    margin-top: 20px;
     font-size: 35px;
     float: right;
     margin-right: 80px;
@@ -147,6 +147,30 @@ hr {
     padding-top: 50px;
 }
 
+.p2 { 
+    color: red;
+    border: 2px solid red;
+    padding: 17px;
+    padding-right: 40px;
+    padding-left: 40px;
+    cursor: pointer;
+    font-size: 14px;
+    transition-duration: 0.4s;
+    background-color:white; 
+    /* TEMPORARY FIX */
+    margin-top: 20px;
+    font-size: 35px;
+    float: left;
+    margin-left: 80px;
+
+}
+
+.p2:hover {
+    color: black;
+    box-shadow: inset 0 -4px 0 black;
+
+
+}
 
 /* Contact page */
 

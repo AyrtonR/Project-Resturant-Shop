@@ -93,3 +93,4 @@ function GenCart(index) {
     }
     document.getElementById('totalprice').textContent = totalprice + "€";
   }
+
