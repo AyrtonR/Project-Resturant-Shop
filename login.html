@@ -20,26 +20,23 @@
         <button id="TOP-BAR-BUTTON" onclick="window.location.href='login.html'">LOG IN</button>
     </div>
 
-
-
-    <div class="CONTAINER1">
-        <label for="uname"><b>USERNAME:</b></label>
-        <input type="text" placeholder="Enter Username"
-        name="uname" required></div>
-        <div class="CONTAINER2">
-        <label for="psw"><b>Password:</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-        <br>
+    <form name = "form1" action="modified.php" method = "post" enctype = "multipart/form-data" >
+    
+    <div class="CONTAINER">
+    <div class="form_group">   
+        <label><b>USERNAME:</b></label>
+        <input type="text" name="uname" placeholder="Enter Username"></div>
+    
+        <div class="form_group">
+        <label><b>Password:</b></label>
+    <input type="password" name="password" placeholder="Enter Password">
+    </div>
     <button type="submit">Login</button>
     <label>
      <input type="checkbox" checked="checked" name ="remember"> Remember me </label>
 
 </div>
-
-
-
-
-
+</form>
 
     <footer class="FOOTER">
         <p> Email: Srs@Kebab.fi </p>

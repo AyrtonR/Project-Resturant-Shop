@@ -164,15 +164,19 @@ margin-left: 50px;
 
 
 /* LOGIN PAGE */
-.CONTAINER1 {
+.CONTAINER {
     text-align: center;
     margin-top: 50px;
     margin-right: 8px;
     }
 
-.CONTAINER2 {
-        text-align: center;
-        }
+.form_group {
+    padding: 10px;  
+    ;    
+  display: block;  
+
+}
+
 
 
 
