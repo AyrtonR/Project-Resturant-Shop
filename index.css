@@ -1,7 +1,7 @@
 body {
     background-image: url('old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall.jpg');
     background-repeat: no-repeat;
-    background-size: 1920px 2400px; 
+    background-size: 1920px 2900px; 
     left: 0px;
     width: 1920px;
     font-family: 'Amatic SC', cursive;
@@ -50,34 +50,66 @@ body {
 }
 #P1   {
     margin-top: 150px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
+#photo1 {
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+#photo2 {
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+#para2 {
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+#photo3 {
+    margin-right: 100px;
+}
 
 /* This is all for the Menu Page */ 
     
 #MENU {
     justify-content: space-around;
     display: flex;
-    line-height: 0.5pt;  
+    line-height: 0.5pt;
+    margin-top: 60px;  
 }
  #SAL {
      font-weight: bold;
      color: white; 
-     font-size: 48px;
+     font-size: 70px;
      text-align: left;         
      margin-left: 285px;
 }
  #SALCONT{
     font-size: 50px;
     color: white;
-    border: 1px solid;
     line-height: 30pt;
     padding: 20px;
     border-collapse: separate;
 }
+#SALCONT2{
+    font-size: 50px;
+    color: white;
+    line-height: 30pt;
+    padding: 20px;
+    border-collapse: separate;
+    margin-top: 10px;
+}
  p#SALCONT span {
     font-size:30px;
 }
+p#SALCONT2 span {
+    font-size:30px;
+}
+
 .ADDBUTTON {
     border: 3px solid black;
     cursor: pointer;
@@ -203,16 +235,6 @@ margin-left: 50px;
 
 
 
-
-    
-
-
-
-
-
-
-
-
 /* This is the Footer*/ 
 .FOOTER {
     margin-top: 140px;
@@ -221,4 +243,7 @@ margin-left: 50px;
     color: white;
     line-height: 3pt;
     padding: 0.5px;
+    position: static;
+    width: 100%;
+
 }
