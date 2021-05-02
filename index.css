@@ -245,10 +245,19 @@ margin-left: 50px;
     padding: 0.5px;
     position: static;
     width: 100%;
-
 }
 .FOOTERL {
     margin-top: 450px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    line-height: 3pt;
+    padding: 0.5px;
+    position: static;
+    width: 100%;
+}
+.FOOTERC {
+    margin-top: 400px;
     text-align: center;
     background-color: black;
     color: white;
