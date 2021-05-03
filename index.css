@@ -139,6 +139,7 @@ p#SALCONT2 span {
     background-color:white;
     opacity: 1;
     animation: fade 5s ease;
+    margin-left: -110px;
 }
 
 /* Cart */ 
