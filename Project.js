@@ -65,6 +65,17 @@ if (JSON.parse(sessionStorage.getItem("cartArray")) != null) {
 }
 cartArray.push(Meals[index]);
 sessionStorage.setItem("cartArray", JSON.stringify(cartArray));
+
+const containermsgnode = document.getElementById("containermsg");
+const cartmsgnode = document.createElement("h1");
+cartmsgnode.setAttribute("id","cartmsg");
+const textnode = document.createTextNode("Item Added");
+cartmsgnode.appendChild(textnode);
+containermsgnode.appendChild(cartmsgnode);
+
+setTimeout(function(){
+    cartmsgnode.parentNode.removeChild(cartmsgnode)
+},5000)
 console.log(cartArray);  }
 
 function GenCart(index) {
@@ -87,10 +98,19 @@ function GenCart(index) {
   function CartPutter () {
     let totalprice = 0.0;
     cartArray = JSON.parse(sessionStorage.getItem("cartArray"));
+    console.log(cartArray)
     for (let i = 0; i < cartArray.length; i++) {
       GenCart(i); 
-      totalprice = totalprice + parseFloat(cartArray[i].price);
+      totalprice = totalprice + parseFloat(cartArray[i].price.replace(",","."));
     }
-    document.getElementById('totalprice').textContent = totalprice + "€";
+    const resultprice = totalprice.toString().replace(".",",")
+    let finalprice
+    if (resultprice.includes(",")){
+        finalprice = resultprice + "0"
+    }
+    else {
+        finalprice = resultprice + ",00"
+    }
+    document.getElementById('totalprice').textContent = finalprice + "€";
   }
 

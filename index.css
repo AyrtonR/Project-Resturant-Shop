@@ -118,7 +118,28 @@ p#SALCONT2 span {
     font-size: 25px;
     padding-top: 2px;
 }
+#containermsg {
+    margin-top: 100px;
+    text-align: center;
+}
+@keyframes fade {
+    0%, 100% {
+        opacity: 0;}
+        50% {
+        opacity: 1;}
+    }
 
+#cartmsg {
+    position: fixed;
+    left: 50%;
+    margin: auto;
+    color: red;
+    border: 2px solid red;
+    padding: 17px;
+    background-color:white;
+    opacity: 1;
+    animation: fade 5s ease;
+}
 
 /* Cart */ 
 #Product {
@@ -203,6 +224,7 @@ hr {
 
 
 }
+
 
 /* Contact page */
 
