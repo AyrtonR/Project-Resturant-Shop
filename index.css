@@ -232,14 +232,12 @@ hr {
 
 #CONTACT1 {
 font-size: 45px;
-margin-left: 50px;
-
+text-align: center;
 }
 
 #CONTACT2 {
     font-size: 30px;
-    margin-left: 50px;
-    
+    text-align: center;
     }
 
 
@@ -257,6 +255,10 @@ margin-left: 50px;
 
 }
 
+#LOGIN {
+    text-align: center;
+    
+    }
 
 
 /* This is the Footer*/ 

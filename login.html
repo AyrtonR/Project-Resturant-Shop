@@ -15,28 +15,22 @@
         <img src="logo.png" width="230" height="150"> </a>
         <button id="TOP-BAR-BUTTON" onclick="window.location.href='index.html'">HOME</button>
         <button id="TOP-BAR-BUTTON" onclick="window.location.href='menu.html'">MENU</button>
-        <button id="TOP-BAR-BUTTON" onclick="window.location.href='Contact.html'">CONTACT</button>
+        <button id="TOP-BAR-BUTTON" onclick="window.location.href='Contact.php'">CONTACT</button>
         <button id="TOP-BAR-BUTTON" onclick="window.location.href='Cart.html'">CART</button>
-        <button id="TOP-BAR-BUTTON" onclick="window.location.href='login.html'">LOG IN</button>
+        <button id="TOP-BAR-BUTTON" onclick="window.location.href='login.html'">REGISTER</button>
     </div>
-<!--
-    <form name = "form1" action="modified.php" method = "post" enctype = "multipart/form-data" >
-    -->
-    
-    <div class="CONTAINER">
-    <div class="form_group">   
-        <label><b>USERNAME:</b></label>
-        <input type="text" name="uname" placeholder="Enter Username"></div>
-    
-        <div class="form_group">
-        <label><b>Password:</b></label>
-    <input type="password" name="password" placeholder="Enter Password">
-    </div>
-    <button type="submit">Login</button>
-    <label>
-     <input type="checkbox" checked="checked" name ="remember"> Remember me </label>
 
-</div>
+    <div id="CONTACT2">
+    <p>Want to become our member? Give your email address and set a password!</p>    
+    </div>
+
+
+
+    <form id="LOGIN" method="post" action="connect.php">
+        Email : <input type="text" name="email"><br><br>
+        Password : <input type="password" name="password"><br><br>
+
+        <input type="submit" value="Register">
 </form>
 
     <footer class="FOOTERL">
